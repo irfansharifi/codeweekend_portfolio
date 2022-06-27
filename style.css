@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Inter, sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background-position: right;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.ButtonContainer > div {
+  font-size: 20px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #8795a1;
+  align-items: center;
+  margin-right: 250px;
+}
+
+h2 {
+  align-items: center;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+
+p {
+  align-items: center;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.intro {
+  font-size: xx-large;
+  margin-top: 60px;
+  margin-right: 150px;
+  gap: 40px;
+  line-height: 50px;
+  font-weight: lighter;
+}
+
+.text-grey-dark {
+  color: #8795a1;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.twit {
+  margin-left: 750px;
+}
+
+.button {
+  align-items: center;
+  margin-left: 220px;
+  color: white;
+  background-color: blue;
+}
+
+.c {
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-right: 150px;
+  gap: 40px;
+  line-height: 50px;
+  font-weight: lighter;
+}
